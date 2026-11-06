@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "v9AqYXCYatQ=",
+  "success": false,
+  "projectFilePath": "D:\\Kumpulan Project\\Bot-Reminder\\tests\\Remindly.UnitTests\\Remindly.UnitTests.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.\r\n  An attempt was made to access a socket in a way forbidden by its access permissions. (api.nuget.org:443)\r\n  An attempt was made to access a socket in a way forbidden by its access permissions.",
+      "projectPath": "D:\\Kumpulan Project\\Bot-Reminder\\tests\\Remindly.UnitTests\\Remindly.UnitTests.csproj",
+      "filePath": "D:\\Kumpulan Project\\Bot-Reminder\\tests\\Remindly.UnitTests\\Remindly.UnitTests.csproj",
+      "targetGraphs": []
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+@Remindly.API_HostAddress = http://localhost:5096
+
+GET {{Remindly.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
