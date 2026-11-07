@@ -36,6 +36,43 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Remindly.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Remindly.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Remindly.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Remindly.Application.dll": {}
+        }
+      },
+      "Remindly.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Remindly.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Remindly.Domain.dll": {}
+        }
+      },
+      "Remindly.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Remindly.Application": "1.0.0",
+          "Remindly.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Remindly.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Remindly.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -75,11 +112,28 @@
         "microsoft.openapi.2.12.2.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
+    },
+    "Remindly.Application/1.0.0": {
+      "type": "project",
+      "path": "../Remindly.Application/Remindly.Application.csproj",
+      "msbuildProject": "../Remindly.Application/Remindly.Application.csproj"
+    },
+    "Remindly.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Remindly.Domain/Remindly.Domain.csproj",
+      "msbuildProject": "../Remindly.Domain/Remindly.Domain.csproj"
+    },
+    "Remindly.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Remindly.Infrastructure/Remindly.Infrastructure.csproj",
+      "msbuildProject": "../Remindly.Infrastructure/Remindly.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Microsoft.AspNetCore.OpenApi >= 10.0.14"
+      "Microsoft.AspNetCore.OpenApi >= 10.0.14",
+      "Remindly.Application >= 1.0.0",
+      "Remindly.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -89,11 +143,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Kumpulan Project\\Bot-Reminder\\Remindly.API\\Remindly.API.csproj",
+      "projectUniqueName": "D:\\Kumpulan Project\\Bot-Reminder\\src\\Remindly.API\\Remindly.API.csproj",
       "projectName": "Remindly.API",
-      "projectPath": "D:\\Kumpulan Project\\Bot-Reminder\\Remindly.API\\Remindly.API.csproj",
+      "projectPath": "D:\\Kumpulan Project\\Bot-Reminder\\src\\Remindly.API\\Remindly.API.csproj",
       "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-      "outputPath": "D:\\Kumpulan Project\\Bot-Reminder\\Remindly.API\\obj\\",
+      "outputPath": "D:\\Kumpulan Project\\Bot-Reminder\\src\\Remindly.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -114,7 +168,14 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Kumpulan Project\\Bot-Reminder\\src\\Remindly.Application\\Remindly.Application.csproj": {
+              "projectPath": "D:\\Kumpulan Project\\Bot-Reminder\\src\\Remindly.Application\\Remindly.Application.csproj"
+            },
+            "D:\\Kumpulan Project\\Bot-Reminder\\src\\Remindly.Infrastructure\\Remindly.Infrastructure.csproj": {
+              "projectPath": "D:\\Kumpulan Project\\Bot-Reminder\\src\\Remindly.Infrastructure\\Remindly.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

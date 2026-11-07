@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ec4so+eakYM=",
+  "dgSpecHash": "nsMmsgsfizU=",
   "success": true,
-  "projectFilePath": "D:\\Kumpulan Project\\Bot-Reminder\\Remindly.API\\Remindly.API.csproj",
+  "projectFilePath": "D:\\Kumpulan Project\\Bot-Reminder\\src\\Remindly.API\\Remindly.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kevin\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.14\\microsoft.aspnetcore.openapi.10.0.14.nupkg.sha512",
     "C:\\Users\\kevin\\.nuget\\packages\\microsoft.openapi\\2.12.2\\microsoft.openapi.2.12.2.nupkg.sha512"
