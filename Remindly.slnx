@@ -1,2 +1,11 @@
 <Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Remindly.API/Remindly.API.csproj" />
+    <Project Path="src/Remindly.Application/Remindly.Application.csproj" />
+    <Project Path="src/Remindly.Domain/Remindly.Domain.csproj" />
+    <Project Path="src/Remindly.Infrastructure/Remindly.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Remindly.UnitTests/Remindly.UnitTests.csproj" />
+  </Folder>
 </Solution>

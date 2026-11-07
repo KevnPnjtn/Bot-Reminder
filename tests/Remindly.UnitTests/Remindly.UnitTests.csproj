@@ -18,4 +18,9 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Remindly.Domain\Remindly.Domain.csproj" />
+    <ProjectReference Include="..\..\src\Remindly.Application\Remindly.Application.csproj" />
+  </ItemGroup>
+
 </Project>

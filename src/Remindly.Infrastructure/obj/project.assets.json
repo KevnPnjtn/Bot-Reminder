@@ -1,11 +1,49 @@
 {
   "version": 4,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "Remindly.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Remindly.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Remindly.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Remindly.Application.dll": {}
+        }
+      },
+      "Remindly.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Remindly.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Remindly.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Remindly.Application/1.0.0": {
+      "type": "project",
+      "path": "../Remindly.Application/Remindly.Application.csproj",
+      "msbuildProject": "../Remindly.Application/Remindly.Application.csproj"
+    },
+    "Remindly.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Remindly.Domain/Remindly.Domain.csproj",
+      "msbuildProject": "../Remindly.Domain/Remindly.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "Remindly.Application >= 1.0.0",
+      "Remindly.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\kevin\\.nuget\\packages\\": {},
@@ -39,7 +77,14 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Kumpulan Project\\Bot-Reminder\\src\\Remindly.Application\\Remindly.Application.csproj": {
+              "projectPath": "D:\\Kumpulan Project\\Bot-Reminder\\src\\Remindly.Application\\Remindly.Application.csproj"
+            },
+            "D:\\Kumpulan Project\\Bot-Reminder\\src\\Remindly.Domain\\Remindly.Domain.csproj": {
+              "projectPath": "D:\\Kumpulan Project\\Bot-Reminder\\src\\Remindly.Domain\\Remindly.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

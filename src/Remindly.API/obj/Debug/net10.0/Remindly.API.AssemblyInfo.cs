@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Remindly.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c753050ae762072c4527a82104b38f3eeafcde20")]
 [assembly: System.Reflection.AssemblyProductAttribute("Remindly.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Remindly.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

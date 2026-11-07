@@ -1,0 +1,27 @@
+# Build outputs
+**/bin/
+**/obj/
+**/out/
+
+# Visual Studio / IDE
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Test and coverage outputs
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Local configuration and secrets
+appsettings.*.local.json
+*.secrets.json
+.env
+.env.*
+!.env.example
+
+# OS files
+Thumbs.db
+.DS_Store

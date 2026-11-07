@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.14" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Remindly.Application\Remindly.Application.csproj" />
+    <ProjectReference Include="..\Remindly.Infrastructure\Remindly.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
